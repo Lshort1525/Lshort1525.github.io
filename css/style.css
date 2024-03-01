@@ -16,8 +16,7 @@ Do they best you can with this, talk with each other and help each other. Most c
 body {
     background-color: rgb(185, 207, 174) ;
     font-family: "josefin Sans";
-    padding: 100px;
-    border-radius: 50px;
+    margin: 0;
     
 }
 nav {
@@ -28,9 +27,7 @@ nav {
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
-    float: top;
-    padding: 5%;
+    padding: 25px;
     background-color: cornsilk;
     display: flex;
     justify-content: space-between;
@@ -81,7 +78,16 @@ footer {
   text-align: center;
   background-color: #04ADBF ;
   color: #3a400c;
-  padding-block: 15px;
+  padding-block: 5px;
   text-transform: uppercase;
   font-style: bold;
+}
+
+.homepage {
+  max-width: 100%;
+  height: auto
+}
+
+.wrap {
+  margin: 15%;
 }
