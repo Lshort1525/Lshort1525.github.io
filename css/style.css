@@ -14,9 +14,9 @@ Do they best you can with this, talk with each other and help each other. Most c
     font-style: normal;
   }
 body {
-    background-color: rgb(247, 147, 75);
+    background-color: rgb(185, 207, 174) ;
     font-family: "josefin Sans";
-    padding: 200px;
+    padding: 100px;
     border-radius: 50px;
     
 }
@@ -27,7 +27,13 @@ nav {
     color: #047f8c;
     display: inline-block;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
+    width: 100%;
+    float: top;
+    padding: 5%;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
 }
 a {
   color: #047f8c;
@@ -51,6 +57,7 @@ h2 {
   font-family: "lato";
   font-weight: 700;
   font-size: 22.5;
+  text-transform: capitalize;
 }
 
 p {
