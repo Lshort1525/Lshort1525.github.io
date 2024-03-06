@@ -41,8 +41,9 @@ h1 {
   text-transform: uppercase;
   font: weight 600px; ;
   font-size: 37px;
-  color: #3a400c;
+  color: #047f8c;
   text-align: center;
+  padding-top: 40px;
 }
 
 h3 {
@@ -89,5 +90,25 @@ footer {
 }
 
 .wrap {
-  margin: 15%;
+  margin: 10% 15%;
+}
+
+.coast {
+  max-width: 100%;
+  height: auto
+}
+
+.hotairballoons {
+  max-width: 100%;
+  height: auto
+}
+
+.greece {
+  max-width: 100%;
+  height: auto
+}
+
+.mountains {
+  max-width: 100%;
+  height: auto
 }
