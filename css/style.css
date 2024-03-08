@@ -112,3 +112,12 @@ footer {
   max-width: 100%;
   height: auto
 }
+
+img {
+  max-width: 30%;
+  height:auto
+}
+
+div {
+  margin: 5%
+}
