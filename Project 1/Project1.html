@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 - Lawnmower</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script>
+        
+        let mylawnmower;
+        let mowerWidth = 100;
+        let mowerHeight = 100;
+        let pathColor;
+        let trail= [];
+
+        function preload() {
+            mylawnmower = loadImage("lawnmower.png");
+        }
+
+        function setup() {
+            createCanvas(1000,1000);
+            pathColor = color(107, 190, 69);
+        }
+
+        function draw() {
+            background("darkgreen");
+            mowed();
+           
+            noStroke();
+            fill(pathColor);
+            for(let pos of trail) {
+                rect(pos.x-45, pos.y-55, mowerWidth, mowerHeight/6);
+            }
+            
+            image(mylawnmower, mouseX - mylawnmower.width/4 ,mouseY - mylawnmower.height/4,mowerWidth,mowerHeight);
+        }
+
+        function mowed() {
+            fill(pathColor);
+            if (mouseIsPressed) {
+                trail.push({ x: mouseX, y: mouseY });
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
